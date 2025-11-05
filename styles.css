@@ -1,0 +1,33 @@
+.tytul {
+    font-size: 24px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+u.kot {
+    font-size: 24px;
+    color: #4B0082;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+a {
+    font-size: 12px;
+    color: #008B8B;
+    font-family: 'Arial Black', Arial, sans-serif;
+}
+.kolorowy {
+    color: #FF4500;
+    font-family: 'Impact', fantasy;
+    font-size: 22px;
+}
+.gradient {
+    background: linear-gradient(90deg, #ffeb3b, #e91e63);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+}
+.shadow {
+    color: #222;
+    text-shadow: 2px 2px 5px #e91e63;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
