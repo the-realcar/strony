@@ -1,0 +1,32 @@
+/* układ i responsywność */
+.media {
+    max-width: 25%;
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+    margin: 6px 8px;
+}
+section#v3 {
+    width: 30%;
+    background-color: antiquewhite;
+    margin: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    border-radius: 6px;
+}
+.site-footer {
+    background-color: darkseagreen;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* responsywność */
+@media (max-width: 800px) {
+    .media, section#v3, .site-footer { width: 100% !important; max-width: 100% !important; display:block; }
+    body { margin: 8px; }
+}

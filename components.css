@@ -1,0 +1,31 @@
+/* tabele, listy, formularze i przyciski */
+.cat-table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
+.cat-table td, .cat-table th {
+    padding: 8px;
+    border: 1px solid #aaa;
+    vertical-align: top;
+}
+.light-list, .dark-list { margin: 0; padding-left: 1.25rem; }
+.light-list li, .dark-list li { margin-bottom: 6px; }
+
+.cat-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cat-form label { font-weight: 600; }
+.cat-form input[type="text"], .cat-form textarea, .cat-form select {
+    padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size:14px; width:100%;
+}
+.cat-form fieldset { border: none; padding: 0; margin: 0; }
+.cat-form input[type="radio"], .cat-form input[type="checkbox"] { transform: scale(1.05); margin-right: 6px; }
+.btn {
+    background-color: violet;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform .08s ease, opacity .12s ease;
+}
+.btn:hover { transform: translateY(-1px); opacity: .95; }

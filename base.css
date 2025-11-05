@@ -1,0 +1,30 @@
+/* Reset / podstawowe reguły */
+:root {
+    --bg: #fffdf8;
+    --text: #333;
+    --accent: #e91e63;
+    --muted: #666;
+    --green: #006400;
+}
+* { box-sizing: border-box; }
+html,body { height:100%; }
+body {
+    margin: 16px;
+    line-height: 1.5;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* typografia podstawowa */
+.tytul {
+    font-size: 24px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: .5rem 0;
+    color: #2e3a2f;
+}
+a { color: #1e90ff; text-decoration: none; }
+a.inline-link { font-weight:700; }

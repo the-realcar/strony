@@ -1,0 +1,19 @@
+/* kolory i drobne komponenty tematyczne */
+.hero { color: var(--green); font-family: 'Trebuchet MS', Verdana, sans-serif; }
+.intro { font-size: 18px; color: #e91e63; font-family: 'Lucida Console',Monaco,monospace; }
+.intro .inline-link { color:#1e90ff; font-family:'Arial Black',Arial,sans-serif; }
+.green { color:#32cd32; font-family:'Georgia',serif; }
+.underline { font-size:24px; color:#4B0082; font-family:'Comic Sans MS',cursive,sans-serif; text-decoration: underline; }
+.strike { color:#a9a9a9; font-family:'Times New Roman',Times,serif; text-decoration: line-through; }
+.fact { font-size:24px; color:#4B0082; font-family:'Comic Sans MS',cursive,sans-serif; }
+.kolorowy { color:#FF4500; font-family:'Impact',fantasy; font-size:22px; }
+.gradient {
+    background: linear-gradient(90deg,#ffeb3b,#e91e63);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:28px; font-family:'Segoe UI',Verdana,Geneva,Tahoma,sans-serif;
+}
+.shadow { color:#222; text-shadow:2px 2px 5px var(--accent); font-size:20px; font-family:'Courier New',Courier,monospace; }
+.section-heading { background-color:Aqua; color:DarkGreen; font-family: 'Times New Roman', Times, serif; padding:6px; border-radius:4px; }
+.section-heading.dark { background-color:DarkCyan; color:Azure; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+.emoji { font-family: 'Courier New', Courier, monospace; }
