@@ -17,3 +17,43 @@
 .section-heading { background-color:Aqua; color:DarkGreen; font-family: 'Times New Roman', Times, serif; padding:6px; border-radius:4px; }
 .section-heading.dark { background-color:DarkCyan; color:Azure; font-family: Verdana, Geneva, Tahoma, sans-serif; }
 .emoji { font-family: 'Courier New', Courier, monospace; }
+/* Dark theme — nadpisanie zmiennych i widoczność przycisku */
+:root[data-theme="dark"] {
+    --bg: #0b0f12;
+    --text: #e6eef6;
+    --accent: #ff4081;
+    --muted: #bfbfbf;
+    --green: #7fbf7f;
+}
+
+/* Backup: klasa na body (jeśli CSS używa .dark-theme) */
+body.dark-theme {
+    background: var(--bg);
+    color: var(--text);
+}
+
+/* Gwarantujemy użycie zmiennych (nadpisuje wcześniejsze bezpośrednie wartości) */
+body {
+    background: var(--bg);
+    color: var(--text);
+}
+
+/* Styl i widoczność przycisku przełączania motywu */
+#theme-toggle {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 9999;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.12);
+    background: rgba(255,255,255,0.95);
+    color: var(--text);
+    cursor: pointer;
+}
+:root[data-theme="dark"] #theme-toggle,
+body.dark-theme #theme-toggle {
+    background: rgba(20,20,20,0.9);
+    color: var(--text);
+    border-color: rgba(255,255,255,0.06);
+}
